@@ -269,6 +269,73 @@ app.post("/get-report", async (req, res) => {
 
   res.json({ report: report });
 });
+app.post("/get-report-keyword", async (req, res) => {
+  const keyword = req.body.keyword.toLowerCase();
+  const fs = require("fs");
+
+  const report = require("./database/report.json");
+  const data = require("./database/data.json");
+
+  let grandTotal = 0;
+
+  for (const course of data) {
+    if (
+      course.name.toLowerCase().includes(keyword) ||
+      course.author.toLowerCase().includes(keyword)
+    ) {
+      grandTotal += course.total;
+    }
+  }
+
+  const authorCount = data.reduce((acc, course) => {
+    if (course.name.toLowerCase().includes(keyword)) {
+      acc[course.author] = acc[course.author] ? acc[course.author] + 1 : 1;
+    }
+    return acc;
+  }, {});
+
+  const topAuthors = Object.entries(authorCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([name, count]) => ({ name, count }));
+
+  const courseSales = data.reduce((acc, course) => {
+    if (course.name.toLowerCase().includes(keyword)) {
+      acc[course.name] = acc[course.name]
+        ? acc[course.name] + course.total
+        : course.total;
+    }
+    return acc;
+  }, {});
+
+  const topCourses = Object.entries(courseSales)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([name, sales]) => ({ name, sales }));
+
+  const sellerEarnings = data.reduce((acc, course) => {
+    if (course.name.toLowerCase().includes(keyword)) {
+      acc[course.author] = acc[course.author]
+        ? acc[course.author] + course.total
+        : course.total;
+    }
+    return acc;
+  }, {});
+
+  const topSellers = Object.entries(sellerEarnings)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([name, earnings]) => ({ name, earnings }));
+
+  report.grandTotal = grandTotal;
+  report.mostProlificAuthors = topAuthors;
+  report.bestSellingCourses = topCourses;
+  report.highestPaidSellers = topSellers;
+
+  fs.writeFileSync("./database/report.json", JSON.stringify(report, null, 2));
+
+  res.json({ report: report });
+});
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => console.log(`Server running on port ${port}`));

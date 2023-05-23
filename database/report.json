@@ -1,57 +1,45 @@
 {
-  "grandTotal": 2517399,
-  "mostProlificAuthor": {
-    "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
-    "count": 14
-  },
-  "bestSellingCourse": {
-    "name": "Shopify Dropshipping: 10 Tips to Scale from 6 to 7 FiguresLearn the Strategies, Tips & Techniques that Helped Me Scale My Shopify Dropshipping Store from 6 to 7 Figures.Rating: 4.2 out of 553 reviews1.5 total hours19 lecturesIntermediate",
-    "sales": 109004
-  },
-  "highestPaidSeller": {
-    "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
-    "earnings": 318801
-  },
+  "grandTotal": 506528,
   "mostProlificAuthors": [
     {
       "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
-      "count": 14
-    },
-    {
-      "name": "Zachary Miller",
-      "count": 9
-    },
-    {
-      "name": "Adam Reed",
       "count": 8
+    },
+    {
+      "name": "Mario Jurik",
+      "count": 4
+    },
+    {
+      "name": "James Canzanella",
+      "count": 3
     }
   ],
   "bestSellingCourses": [
     {
-      "name": "Shopify Dropshipping: 10 Tips to Scale from 6 to 7 FiguresLearn the Strategies, Tips & Techniques that Helped Me Scale My Shopify Dropshipping Store from 6 to 7 Figures.Rating: 4.2 out of 553 reviews1.5 total hours19 lecturesIntermediate",
-      "sales": 109004
+      "name": "ClickFunnels 2.0 Sales Funnels & Courses Mastery In 2023Master Sales Funnels, Online Course Creation And Grow Your Business Using <strong>ClickFunnels</strong> 2.0Rating: 2.7 out of 56 reviews34 total mins10 lecturesBeginner",
+      "sales": 67116
     },
     {
-      "name": "How To Start Building Pages & Funnels With ElementorLearn how to use Elementor for building high quality pages & funnels for your own needs and support your clients.Rating: 3.4 out of 55 reviews1.5 total hours18 lecturesBeginner",
-      "sales": 109004
+      "name": "5 jours pour trouver le produit Gagnant avec ClickFunnelsL'indispensable avant d'ouvrir sa boutique ShopifyRating: 4.3 out of 568 reviews3 total hours39 lecturesIntermediate",
+      "sales": 51884
     },
     {
-      "name": "Sales Funnels: 20 Effektive Sales Funnels für UnternehmenErstelle 20 Sales Funnels, lerne sie zu optimieren und die Verkaufszahlen deines Unternehmens zu erhöhenRating: 2.9 out of 54 reviews3 total hours23 lecturesAll Levels",
-      "sales": 107814
+      "name": "エバーグリーンウェビナーをClickFunnelsで実装する方法ClickFunnels（クリックファネル）でエバーグリーン / オートウェビナーを実現する方法。月額課金（定期購読）や高額商品に販売にオススメの手法です。Rating: 4.5 out of 520 reviews9 total hours31 lecturesIntermediate",
+      "sales": 40341
     }
   ],
   "highestPaidSellers": [
     {
       "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
-      "earnings": 318801
+      "earnings": 117810
     },
     {
-      "name": "eCommerce Hero",
-      "earnings": 186642
+      "name": "Mario Jurik",
+      "earnings": 69020
     },
     {
-      "name": "Adam Reed",
-      "earnings": 115635
+      "name": "Lionel Invest",
+      "earnings": 52003
     }
   ]
 }
