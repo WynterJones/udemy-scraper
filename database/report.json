@@ -1,4 +1,57 @@
 {
-  "grandTotal": 10115,
-  "mostProlificAuthor": "Wynter Jones"
+  "grandTotal": 2517399,
+  "mostProlificAuthor": {
+    "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
+    "count": 14
+  },
+  "bestSellingCourse": {
+    "name": "Shopify Dropshipping: 10 Tips to Scale from 6 to 7 FiguresLearn the Strategies, Tips & Techniques that Helped Me Scale My Shopify Dropshipping Store from 6 to 7 Figures.Rating: 4.2 out of 553 reviews1.5 total hours19 lecturesIntermediate",
+    "sales": 109004
+  },
+  "highestPaidSeller": {
+    "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
+    "earnings": 318801
+  },
+  "mostProlificAuthors": [
+    {
+      "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
+      "count": 14
+    },
+    {
+      "name": "Zachary Miller",
+      "count": 9
+    },
+    {
+      "name": "Adam Reed",
+      "count": 8
+    }
+  ],
+  "bestSellingCourses": [
+    {
+      "name": "Shopify Dropshipping: 10 Tips to Scale from 6 to 7 FiguresLearn the Strategies, Tips & Techniques that Helped Me Scale My Shopify Dropshipping Store from 6 to 7 Figures.Rating: 4.2 out of 553 reviews1.5 total hours19 lecturesIntermediate",
+      "sales": 109004
+    },
+    {
+      "name": "How To Start Building Pages & Funnels With ElementorLearn how to use Elementor for building high quality pages & funnels for your own needs and support your clients.Rating: 3.4 out of 55 reviews1.5 total hours18 lecturesBeginner",
+      "sales": 109004
+    },
+    {
+      "name": "Sales Funnels: 20 Effektive Sales Funnels für UnternehmenErstelle 20 Sales Funnels, lerne sie zu optimieren und die Verkaufszahlen deines Unternehmens zu erhöhenRating: 2.9 out of 54 reviews3 total hours23 lecturesAll Levels",
+      "sales": 107814
+    }
+  ],
+  "highestPaidSellers": [
+    {
+      "name": "石崎力也 (RIKIYA ISHIZAKI), あずさ 鈴木",
+      "earnings": 318801
+    },
+    {
+      "name": "eCommerce Hero",
+      "earnings": 186642
+    },
+    {
+      "name": "Adam Reed",
+      "earnings": 115635
+    }
+  ]
 }
